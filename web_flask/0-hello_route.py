@@ -13,7 +13,7 @@ os.environ["FLASK_APP"] = "0-hello_route.py"
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/airbnb-onepage/', strict_slashes=False)
 def hello_world():
     """ Function returns a very basic html string without any tags"""
     return 'Hello HBNB!'
